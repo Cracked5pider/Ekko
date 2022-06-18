@@ -1,5 +1,9 @@
-
-# Ekko
+<h1 align="center">
+<br>
+<img src="ekko_logo.png">
+<br>
+Ekko
+</h1>
 
 A small sleep obfuscation technique that uses `CreateTimerQueueTimer` to queue up the ROP chain that performs Sleep obfuscation
 
