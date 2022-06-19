@@ -40,7 +40,7 @@ VOID EkkoObf( DWORD SleepTime )
     Key.Length  = Key.MaximumLength = 16;
 
     Img.Buffer  = ImageBase;
-    Img.Length  = Key.MaximumLength = ImageSize;
+    Img.Length  = Img.MaximumLength = ImageSize;
 
     if ( CreateTimerQueueTimer( &hNewTimer, hTimerQueue, RtlCaptureContext, &CtxThread, 0, 0, WT_EXECUTEINTIMERTHREAD ) )
     {
