@@ -107,6 +107,6 @@ VOID EkkoObf( DWORD SleepTime )
 
         puts( "[INFO] Finished waiting for event" );
     }
-
-    DeleteTimerQueue( hTimerQueue );
+    DeleteTimerQueueTimer( hTimerQueue, hNewTimer, NULL );
+    CloseHandle(hEvent);
 }
