@@ -1,5 +1,10 @@
+<h1 align="center">
+<br>
+<img src="ekko_logo.png">
+<br>
+Ekko
+</h1>
 
-# Ekko
 
 A small sleep obfuscation technique that uses `CreateTimerQueueTimer` Win32 API.
 Proof of Concept. Can be done better
