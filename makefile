@@ -17,4 +17,4 @@ x64:
 	@ $(CCX64) Src/*.c -o $(OUTX64) $(CFLAGS) $(LFLAGS) -IInclude
 
 clean:
-	@ rm -rf bin/*.exe
+	@ rm -rf Bin/*.exe
